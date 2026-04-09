@@ -1,4 +1,4 @@
-public class Paciente implements Comparable {
+public class Paciente implements Comparable <Paciente> {
     private int prioridad;
     private String nombre;
     private String sintomas;
